@@ -1,0 +1,6 @@
+RewriteEngine On
+RewriteBase /mvc/
+
+RewriteCond %(THE_REQUEST) public/([^\s?]*) [NC]
+RewriteRule ^ %1 [L,NE,R=302]
+RewriteRule ^((?!public).*)$ /mvc/testemvc1/public [L,NC]

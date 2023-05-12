@@ -1,0 +1,15 @@
+{
+  "name": "alexon/testemvc1",
+  "authors": [
+    {
+      "name": "Alexon Gomes",
+      "email": "alexongomes@gmail.com"
+    }
+  ],
+  "require": {},
+  "autoload": {
+    "psr-4": {
+      "app\\": "app/"
+    }
+  }
+}
